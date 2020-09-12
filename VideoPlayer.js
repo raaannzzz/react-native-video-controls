@@ -931,7 +931,9 @@ export default class VideoPlayer extends Component {
       : this.renderVolume();
     const fullscreenControl = this.props.disableFullscreen
       ? this.renderNullControl()
-      : this.renderNullControl();
+      : this.renderNullControl(); 
+
+      //ghaha
 
     return (
       <Animated.View
